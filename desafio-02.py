@@ -6,7 +6,6 @@ count = 0
 pid = getpid()
 
 with open("pid.txt","w+") as pid_file:
-        print(pid)
         pid_file.write(str(pid))
 
 while(count < 4):
